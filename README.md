@@ -14,7 +14,7 @@ Descriptions of the app:
 Our application will help them attain a state of mental, spiritual and physical well-being. This will go by small steps including better physical form (exercise and sleep schedule), a calm mind( escapism and motivational text) and finally spiritually by trying to get the user to do something meaningful(help someone, find a hobby,...). 
 
 Features:
- •	Sleep schedule
+•	Sleep schedule
 •	Exercising schedule
 •	Meeting and chatting with other people with the same problem
 •	Event organizer
