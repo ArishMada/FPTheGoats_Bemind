@@ -3,7 +3,7 @@
 Live Link: <<>>
 
 
-ClassName: <L1CC>
+ClassName: L1CC <br />
 Course: Human Computer Interaction (COMP6800001) – Final Project
 Team: The GOATS
 Member:
