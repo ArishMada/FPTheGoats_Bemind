@@ -15,7 +15,7 @@ Our application will help them attain a state of mental, spiritual and physical 
 
 Features:<br />
 •	Sleep schedule <br />
-•	Exercising schedule
+•	Exercising schedule <br />
 •	Meeting and chatting with other people with the same problem <br />
 •	Event organizer <br />
 •	Motivational texts <br />
