@@ -4,29 +4,30 @@ Live Link: <<>>
 
 
 ClassName: L1CC <br />
-Course: Human Computer Interaction (COMP6800001) – Final Project
-Team: The GOATS
+Course: Human Computer Interaction (COMP6800001) – Final Project <br />
+Team: The GOATS <br />
 Member:
-Arish Madataly – 2502049706
-Kevin Matthew tanuwijaya - 2502036514
+Arish Madataly – 2502049706 
+Kevin Matthew tanuwijaya - 2502036514 <br />
 
 Descriptions of the app:
-Our application will help them attain a state of mental, spiritual and physical well-being. This will go by small steps including better physical form (exercise and sleep schedule), a calm mind( escapism and motivational text) and finally spiritually by trying to get the user to do something meaningful(help someone, find a hobby,...). 
+Our application will help them attain a state of mental, spiritual and physical well-being. This will go by small steps including better physical form (exercise and sleep schedule), a calm mind( escapism and motivational text) and finally spiritually by trying to get the user to do something meaningful(help someone, find a hobby,...). <br />
 
-Features:
-•	Sleep schedule
+Features:<br />
+•	Sleep schedule <br />
 •	Exercising schedule
-•	Meeting and chatting with other people with the same problem
-•	Event organizer
-•	Motivational texts
-•	Hobby explorer
-•	relaxing musics
-•	call us 
-• meet a professional
+•	Meeting and chatting with other people with the same problem <br />
+•	Event organizer <br />
+•	Motivational texts <br />
+•	Hobby explorer <br />
+•	relaxing musics <br />
+•	call us  <br />
+• meet a professional <br />
 
 
-Any Other Information:
+Poster: <br />
 
-<<You could also add your poster here>>
+![poster](https://user-images.githubusercontent.com/91600264/140638883-4bbbd113-2f6d-4a23-b075-bba7ca98bd35.png)
+
 
 
