@@ -1,6 +1,6 @@
 # FPTheGoats_Bemind
 “Bemind”
-Live Link: <<>>
+Live Link: https://arishmada.github.io/FPTheGoats_Bemind/
 
 
 ClassName: L1CC <br />
