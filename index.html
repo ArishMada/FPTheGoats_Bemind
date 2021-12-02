@@ -73,6 +73,20 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      h2 {
+        font-size: 1em;
+        text-align: center;
+        font-weight: 700;
+        font-style: tahoma;
+        color: white;
+        width: 100%;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
       #bubble {
         width: 100%;
         height: 100%;
@@ -115,10 +129,13 @@
         BEMIND <br />
         <span>A BETTER YOU</span>
       </h1>
+      <h2>Click anywhere to start the relaxation process</h2>
     </div>
     <!--Title-->
 
     <canvas id="bubble"></canvas>
+
+    <audio src="Short Relaxing Soft Music.mp3" id="myaudio"></audio>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
@@ -235,6 +252,18 @@
               .fadeIn();
           });
         });
+      var status = false;
+      var audio = document.getElementById("myaudio");
+
+      document.onclick = function () {
+        if (status == false || audio.paused) {
+          audio.play();
+          status = true;
+        } else {
+          audio.pause();
+          status = false;
+        }
+      };
     </script>
   </body>
 </html>
