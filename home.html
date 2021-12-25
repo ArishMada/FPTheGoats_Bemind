@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home-Bemind</title>
+    <link rel="stylesheet" href="home.css" />
   </head>
-  <body></body>
+  <body>
+    <!--Image slider-->
+    <div class="slideshow-container">
+      <div class="slides fade">
+        <img
+          src="home.jpg"
+          alt="A peaceful landscape with a beautiful ocean in the front and mountains in the background"
+        />
+        <div class="text">
+          <h1 class="title">Welcome to <span>Be</span>mind</h1>
+        </div>
+      </div>
+      <div class="slides fade">
+        <img
+          src="meditation.png"
+          alt="A person meditating, putting her hands together and raising them till her face"
+        />
+        <div class="text">
+          <h1>Escapism</h1>
+          <p>
+            Are you stressed? Overwhelmed? Sad or just unhappy?<br />It's
+            totally normal, and most importantly it's fixable. Let's take a deep
+            breath and forget this stressful world for a few minutes and you
+            will feel better. Bemind offers a lot of relaxation techniques that
+            will help you go through a stressful day/week/month and get you the
+            calm you need to live at a 100%. It will make you feel happier, and
+            more relaxed in order to make you enjoy your life more.
+          </p>
+        </div>
+      </div>
+      <div class="slides fade">
+        <img
+          src="exercise.png"
+          alt="A person with incredible shape, visible muscles and veins, the best description of physical well-being"
+        />
+        <div class="text">
+          <h1>Physical Well-being</h1>
+          <p>
+            You have always thought of getting in shape, always of starting to
+            do some exercise or you are already practicing regularly. In any
+            case, sport is said to be the best activity to improve your mood and
+            that is our goal too. We have a list of exercises, a schedule to
+            follow that will not make you too tired but will help you reconnect
+            with you body, beginners to advanced depending on your "body"
+            objective, we are here to help you get there.
+          </p>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!--End of Image slider-->
+    <script type="text/javascript" src="home.js"></script>
+  </body>
 </html>
