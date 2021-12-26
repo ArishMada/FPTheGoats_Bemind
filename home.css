@@ -1,6 +1,10 @@
 /*beginning of image slider*/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
 }
 
 body {
@@ -10,6 +14,10 @@ body {
 
 .slides {
   display: visible;
+  list-style: none;
+  width: 100%;
+  min-width: 1000px;
+  height: auto;
 }
 
 img {
@@ -64,10 +72,10 @@ img {
 .text h1 {
   color: black;
   font-size: 60px;
-  padding: 120px 12px;
+  padding: 130px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
+  bottom: 50px;
+  width: auto;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -75,8 +83,8 @@ img {
   top: 350px;
   left: 30%;
   color: black;
-  width: 960px;
-  font-size: 80px;
+  width: auto;
+  font-size: 5rem;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -134,3 +142,17 @@ img {
   }
 }
 /*end of image slider*/
+
+@media only screen and (max-width: 1500px) {
+  .text h1 {
+    font-size: 40px;
+  }
+  .text h1.title {
+    font-size: 60px;
+  }
+  .text p {
+    width: 100%;
+    font-size: 15px;
+    bottom: 80px;
+  }
+}
