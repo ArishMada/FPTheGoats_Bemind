@@ -70,7 +70,7 @@ img {
 }
 
 .text h1 {
-  color: black;
+  color: red;
   font-size: 40px;
   padding: 100px 12px;
   position: absolute;
@@ -80,26 +80,41 @@ img {
 }
 
 .text h1.title {
-  top: 32%;
-  left: 30%;
-  color: black;
+  top: 20%;
+  left: 36%;
+  color: #fff;
+  text-shadow: 0 2px 3px #747474, 1px 3px 4px #222, 0 8px 3px #474747,
+    0 11px 4px #747474, 0 14px 4px cyan, 0 17px 4px #343434, 0 20px 4px white;
   width: auto;
-  font-size: 55px;
+  font-size: 100px;
+}
+
+.text h2 {
+  position: absolute;
+  top: 55%;
+  left: 27%;
+  color: royalblue;
+  width: auto;
+  font-size: 40px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .text span {
-  color: green;
+  color: cyan;
 }
 
 /* The dots indicators */
+.dots {
+  background-color: lightgray;
+}
+
 .dot {
   cursor: pointer;
   height: 10px;
   width: 10px;
   margin: 0 2px;
   margin-top: 10px;
-  background-color: #999999;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: backgroung-color 0.6s ease;
