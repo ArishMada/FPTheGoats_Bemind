@@ -171,3 +171,117 @@ img {
     bottom: 10px;
   }
 }
+
+/*div class for the menu*/
+.semicircle{
+    width:150px;
+    height:150px;
+    margin-left: -110px;
+    background: url("http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png");
+    background-size:37px ;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 55px;
+    border-radius: 50%;
+    position:fixed ;
+    top: 35%;
+}
+
+li{
+    list-style: none;
+}
+
+.HomePage{
+    width:3.3px;
+    height: 3.3px;
+    border-radius: 43%;
+    margin-top: -14px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+.semicircle:hover .HomePage {
+    background-image:url("https://www.seekpng.com/png/full/438-4386512_home-icon-home-house-icon-house-icon-png.png") ;
+    background-size: 2.0px;
+    background-repeat: no-repeat;
+    background-position-x:1px ;
+    transform: scale(17) ;
+    transition: transform 1s 0.1s;
+}
+
+.semicircle .HomePage:hover {
+    transition: transform 1s;
+    transform: scale(23) ;
+}
+
+.PhysicalWB{
+    width:3.3px;
+    height: 3.3px;
+    border-radius: 43%;
+    margin-top: 27px;
+    margin-left: 124px;
+    position: absolute;
+}
+
+.semicircle:hover .PhysicalWB {
+    background-image:url("https://icon-library.com/images/running-icon-png/running-icon-png-26.jpg") ;
+    background-size: 2.0px;
+    background-repeat: no-repeat;
+    background-position-x:0.6px ;
+    background-position-y: 0.4px;
+    transition: transform 1s 0.2s;
+    transform: scale(17) ;
+}
+
+.semicircle .PhysicalWB:hover {
+    transition: transform 1s;
+    transform: scale(23) ;
+}
+
+.Escapism{
+    width:3.3px;
+    height: 3.3px;
+    border-radius: 43%;
+    margin-top: 80px;
+    margin-left: 124px;
+    position: absolute;
+    transition: transform 1s 0.3s;
+}
+.semicircle:hover .Escapism {
+    background-image:url("https://cdn2.iconfinder.com/data/icons/the-human-body/128/meditation-512.png") ;
+    background-size: 2px;
+    background-repeat: no-repeat;
+    background-position-x:0.4px ;
+    background-position-y:1px ;
+    transition: transform 1s 0.3s;
+    transform: scale(17) ;
+}
+
+.semicircle .Escapism:hover {
+    transition: transform 1s;
+    transform: scale(24) ;
+}
+
+.Meeting{
+    width:3.3px;
+    height: 3.3px;
+    border-radius: 43%;
+    margin-top: 130px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+.semicircle:hover .Meeting {
+    background-image:url("https://cdn-icons.flaticon.com/png/512/3059/premium/3059446.png?token=exp=1640709654~hmac=ed7802cfe9cc9a79f8aced1515fd34cc") ;
+    background-size: 1px;
+    background-repeat: no-repeat;
+    background-position-x:2px ;
+    background-position-y:1px ;
+    transition: transform 1s 0.4s;
+    transform: scale(17);
+}
+
+.semicircle .Meeting:hover {
+    transition: transform 1s;
+    transform: scale(25) ;
+}
