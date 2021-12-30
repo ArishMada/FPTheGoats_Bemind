@@ -184,9 +184,9 @@ img {
         background-position-y: 50px;
         border-radius: 50%;
         position:fixed ;
-        top: 35%;
+        top: 40%;
         z-index:5;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
     }
     
     li{
@@ -208,8 +208,8 @@ img {
         background-repeat: no-repeat;
         background-position-x:0px ;
         transform: scale(15) ;
-        transition: transform 1s 0.1s;
-        background-color: rgba(0, 0, 0, 0.2);
+        transition: transform 1s;
+        background-color: rgba(255, 255, 255, 0.2);
     }
     
     .semicircle .HomePage:hover {
@@ -232,9 +232,9 @@ img {
         background-image:url("https://icon-library.com/images/running-icon-png/running-icon-png-26.jpg") ;
         background-size: 2.4px;
         background-repeat: no-repeat;
-        transition: transform 1s 0.2s;
+        transition: transform 1s;
         transform: scale(15) ;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
     }
     
     .semicircle .PhysicalWB:hover {
@@ -249,7 +249,7 @@ img {
         margin-top: 103px;
         margin-left: 158px;
         position: absolute;
-        transition: transform 1s 0.3s;
+        transition: transform 1s;
     }
     .semicircle:hover .Escapism {
         background-image:url("https://cdn2.iconfinder.com/data/icons/the-human-body/128/meditation-512.png") ;
@@ -257,9 +257,9 @@ img {
         background-repeat: no-repeat;
         background-position-x:0.4px ;
         background-position-y:0.4px ;
-        transition: transform 1s 0.3s;
+        transition: transform 1s;
         transform: scale(15) ;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
     }
     
     .semicircle .Escapism:hover {
@@ -281,9 +281,9 @@ img {
         background-size: 2.5px;
         background-repeat: no-repeat;
         background-position-y:0.4px ;
-        transition: transform 1s 0.4s;
+        transition: transform 1s;
         transform: scale(15);
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
     }
     
     .semicircle .Meeting:hover {
