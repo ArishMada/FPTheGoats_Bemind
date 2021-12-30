@@ -172,117 +172,121 @@ img {
   }
 }
 
-/*div class for the menu*/
-  .semicircle{
-      width:150px;
-      height:150px;
-      margin-left: -90px;
-      background: url("https://icon-library.com/images/3-bar-menu-icon/3-bar-menu-icon-16.jpg");
-      background-size:43px ;
-      background-repeat: no-repeat;
-      background-position-x: 90px;
-      background-position-y: 50px;
-      border-radius: 50%;
-      position:fixed ;
-      top: 35%;
-      z-index:5;
-  }
-  
-  li{
-      list-style: none;
-  }
-  
-  .HomePage{
-      width:3.3px;
-      height: 3.3px;
-      border-radius: 43%;
-      margin-top: 0px;
-      margin-left: 112px;
-      position: absolute;
-  }
-  
-  .semicircle:hover .HomePage {
-      background-image:url("https://www.seekpng.com/png/full/438-4386512_home-icon-home-house-icon-house-icon-png.png") ;
-      background-size: 2.0px;
-      background-repeat: no-repeat;
-      background-position-x:1px ;
-      transform: scale(17) ;
-      transition: transform 1s 0.1s;
-  }
-  
-  .semicircle .HomePage:hover {
-      transition: transform 1s;
-      transform: scale(23) ;
-  }
-  
-  .PhysicalWB{
-      width:3.3px;
-      height: 3.3px;
-      border-radius: 43%;
-      margin-top: 37px;
-      margin-left: 160px;
-      position: absolute;
-  }
-  
-  .semicircle:hover .PhysicalWB {
-      background-image:url("https://icon-library.com/images/running-icon-png/running-icon-png-26.jpg") ;
-      background-size: 2.0px;
-      background-repeat: no-repeat;
-      background-position-x:0.6px ;
-      background-position-y: 0.4px;
-      transition: transform 1s 0.2s;
-      transform: scale(17) ;
-  }
-  
-  .semicircle .PhysicalWB:hover {
-      transition: transform 1s;
-      transform: scale(23) ;
-  }
-  
-  .Escapism{
-      width:3.3px;
-      height: 3.3px;
-      border-radius: 43%;
-      margin-top: 89px;
-      margin-left: 160px;
-      position: absolute;
-      transition: transform 1s 0.3s;
-  }
-  .semicircle:hover .Escapism {
-      background-image:url("https://cdn2.iconfinder.com/data/icons/the-human-body/128/meditation-512.png") ;
-      background-size: 2px;
-      background-repeat: no-repeat;
-      background-position-x:0.4px ;
-      background-position-y:1px ;
-      transition: transform 1s 0.3s;
-      transform: scale(17) ;
-  }
-  
-  .semicircle .Escapism:hover {
-      transition: transform 1s;
-      transform: scale(24) ;
-  }
-  
-  .Meeting{
-      width:3.3px;
-      height: 3.3px;
-      border-radius: 43%;
-      margin-top: 137px;
-      margin-left: 135px;
-      position: absolute;
-  }
-  
-  .semicircle:hover .Meeting {
-      background-image:url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png") ;
-      background-size: 1.7px;
-      background-repeat: no-repeat;
-      background-position-x:0px ;
-      background-position-y:1px ;
-      transition: transform 1s 0.4s;
-      transform: scale(19);
-  }
-  
-  .semicircle .Meeting:hover {
-      transition: transform 1s;
-      transform: scale(25) ;
-  }
+  /*div class for the menu*/
+    .semicircle{
+        width:140px;
+        height:140px;
+        margin-left: -90px;
+        background: url("https://icon-library.com/images/3-bar-menu-icon/3-bar-menu-icon-16.jpg");
+        background-size:43px ;
+        background-repeat: no-repeat;
+        background-position-x: 90px;
+        background-position-y: 50px;
+        border-radius: 50%;
+        position:fixed ;
+        top: 35%;
+        z-index:5;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    .HomePage{
+        width:3.3px;
+        height: 3.3px;
+        border-radius: 43%;
+        margin-top: -5px;
+        margin-left: 125px;
+        position: absolute;
+    }
+    
+    .semicircle:hover .HomePage {
+        background-image:url("https://www.seekpng.com/png/full/438-4386512_home-icon-home-house-icon-house-icon-png.png") ;
+        background-size: 3.0px;
+        background-repeat: no-repeat;
+        background-position-x:0px ;
+        transform: scale(15) ;
+        transition: transform 1s 0.1s;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .semicircle .HomePage:hover {
+        transition: transform 1s;
+        transform: scale(17) ;
+    }
+    
+    .PhysicalWB{
+        width:3.3px;
+        height: 3.3px;
+        border-radius: 43%;
+        margin-top: 43px;
+        margin-left: 159px;
+        position: absolute;
+        background-position-x:0.4px ;
+        background-position-y: 0.31px;
+    }
+    
+    .semicircle:hover .PhysicalWB {
+        background-image:url("https://icon-library.com/images/running-icon-png/running-icon-png-26.jpg") ;
+        background-size: 2.4px;
+        background-repeat: no-repeat;
+        transition: transform 1s 0.2s;
+        transform: scale(15) ;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .semicircle .PhysicalWB:hover {
+        transition: transform 1s;
+        transform: scale(17) ;
+    }
+    
+    .Escapism{
+        width:3.3px;
+        height: 3.3px;
+        border-radius: 43%;
+        margin-top: 103px;
+        margin-left: 158px;
+        position: absolute;
+        transition: transform 1s 0.3s;
+    }
+    .semicircle:hover .Escapism {
+        background-image:url("https://cdn2.iconfinder.com/data/icons/the-human-body/128/meditation-512.png") ;
+        background-size: 2px;
+        background-repeat: no-repeat;
+        background-position-x:0.4px ;
+        background-position-y:0.4px ;
+        transition: transform 1s 0.3s;
+        transform: scale(15) ;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .semicircle .Escapism:hover {
+        transition: transform 1s;
+        transform: scale(17) ;
+    }
+    
+    .Meeting{
+        width:3.3px;
+        height: 3.3px;
+        border-radius: 43%;
+        margin-top: 146px;
+        margin-left: 125px;
+        position: absolute;
+    }
+    
+    .semicircle:hover .Meeting {
+        background-image:url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png") ;
+        background-size: 2.5px;
+        background-repeat: no-repeat;
+        background-position-y:0.4px ;
+        transition: transform 1s 0.4s;
+        transform: scale(15);
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .semicircle .Meeting:hover {
+        transition: transform 1s;
+        transform: scale(17) ;
+    }
