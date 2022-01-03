@@ -33,8 +33,6 @@ a{
     border-radius: 12%;
     margin: 10px;
     padding:1px 4px;
-    text-decoration: none;
-    text-align: right;
 }
 
 .TopMenu ul{
@@ -50,7 +48,6 @@ a{
 .Colored2{
     display: inline-block;
     color: cornflowerblue;
-    padding-right:500px ;
 }
 /*semi-circular Nav bar*/
 .semicircle {
