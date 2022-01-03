@@ -12,6 +12,46 @@ body {
   height: 1000px;
 }
 
+/*top nav bar*/
+.TopMenu{
+    display: block;
+    background-color: rgba(0,0,0,0.9);
+    padding:10px;
+    z-index: 5;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+.TopMenu li{
+    list-style: none;
+    display:inline-block;
+    align-self:left;
+    background-color: white;
+    border-radius: 12%;
+    margin: 10px;
+    padding:1px 4px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.TopMenu ul{
+    display: inline;
+}
+
+.TopMenu h2{
+    display: inline;
+    color:white;
+    font-size: 40px;
+}
+
+.Colored2{
+    display: inline-block;
+    color: cornflowerblue;
+    padding-right:500px ;
+}
 /*semi-circular Nav bar*/
 .semicircle {
   width: 135px;
