@@ -157,6 +157,10 @@ li {
   transition: transform 1s;
   transform: scale(17);
 }
+
+.gone{
+      display: none;
+    }
 /*End of semi-circular nav-bar*/
 
 /*Image slider*/
