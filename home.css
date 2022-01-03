@@ -17,10 +17,10 @@ body {
   width: 135px;
   height: 135px;
   margin-left: -90px;
-  background: url("https://icon-library.com/images/3-bar-menu-icon/3-bar-menu-icon-16.jpg");
-  background-size: 43px;
+  background: url("icons/menu.png");
+  background-size: 35px;
   background-repeat: no-repeat;
-  background-position-x: 90px;
+  background-position-x: 93px;
   background-position-y: 50%;
   border-radius: 43%;
   position: fixed;
@@ -319,3 +319,134 @@ img {
     bottom: 10px;
   }
 }
+/* End of Image slider*/
+
+/* Description and Introduction */
+.About {
+  margin-top: 20px;
+}
+
+.About .heading {
+  font-size: 20px;
+  text-align: center;
+}
+.About .Intro {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About .Intro .images {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  max-width: 300px;
+  flex-basis: 40%;
+}
+
+.About .Intro .paragraph .subtitle {
+  margin-bottom: 20px;
+}
+.About .Intro .paragraph {
+  margin-right: 10px;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
+.images img {
+  height: 300px;
+  max-width: 100%;
+}
+
+.images .image-top {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 1;
+  width: 300px;
+}
+
+.images .image-bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  width: 300px;
+}
+
+/*flipping cards*/
+.features .subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.cards {
+  width: 100%;
+  height: 260px;
+  perspective: 600px;
+}
+
+.cards .card {
+  float: left;
+  width: 20%;
+  margin-left: 60px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card-face.front h2 {
+  font-size: 20px;
+  color: cyan;
+  text-align: center;
+  margin-top: 135px;
+}
+
+.card-face.back {
+  background: #bbb;
+  transform: rotateY(180deg);
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover {
+  transform: rotateY(180deg);
+}
+
+.card1 .card-face.front {
+  background-image: url("Intro images/peaceful nature.jpg");
+  background-size: cover;
+}
+
+.card2 .card-face.front {
+  background-image: url("");
+  background-size: cover;
+}
+
+.card3 .card-face.front {
+  background-image: url("");
+  background-size: cover;
+}
+
+.card4 .card-face.front {
+  background-image: url("");
+  background-size: cover;
+}
+
+/* End of Description and Introduction */
