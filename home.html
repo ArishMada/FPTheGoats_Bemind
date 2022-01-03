@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
+    <!--top navigation bar-->
+    <div class="TopMenu">
+      <h2>BE<div class="Colored2">MIND</div></h2>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Physical well being</a></li>
+        <li><a href="">Escapism</a></li>
+        <li><a href="">meet</a></li>
+        </ul>
+    </div>
     <!--Permanent semi-circular nav bar-->
-    <div class="semicircle">
+    <div id="NavScroll" class="gone">
       <ul>
         <li><a href="#" class="BackToTop"></a></li>
         <li>
@@ -26,6 +36,18 @@
         </li>
       </ul>
     </div>
+    <script>
+      window.addEventListener("scroll",function(event){
+        var scroll= this.scrollY;
+        console.log(scroll);
+        var SemiMenu= document.getElementById('NavScroll')
+        if (scroll>80){
+          SemiMenu.className='semicircle'
+        } else{
+          SemiMenu.className='gone'
+        }
+      })
+      </script>
     <!--End of permanent semi-circular nav bar-->
 
     <!--Image slider-->
