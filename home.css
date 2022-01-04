@@ -13,41 +13,72 @@ body {
 }
 
 /*top nav bar*/
-.TopMenu{
-    display: block;
-    background-color: rgba(0,0,0,0.9);
-    padding:10px;
-    z-index: 5;
+.TopMenu {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-a{
-    text-decoration: none;
-    color: brown;
+.TopMenu a {
+  text-decoration: none;
+  color: brown;
+  display: block;
+  padding: 20px 18px;
+  text-align: center;
 }
 
-.TopMenu li{
-    list-style: none;
-    display:inline-block;
-    align-self:left;
-    background-color: white;
-    border-radius: 12%;
-    margin: 10px;
-    padding:1px 4px;
+.TopMenu li {
+  list-style: none;
+  float: right;
+  height: 60px;
+  margin-right: 20px;
 }
 
-.TopMenu ul{
-    display: inline;
+.TopMenu a:hover {
+  background-color: white;
 }
 
-.TopMenu h2{
-    display: inline;
-    color:white;
-    font-size: 40px;
+.TopMenu a.active {
+  background-color: white;
 }
 
-.Colored2{
-    display: inline-block;
-    color: cornflowerblue;
+.TopMenu:hover {
+  animation: topMenuAnimation 7s infinite;
+}
+
+@keyframes topMenuAnimation {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+.TopMenu ul {
+  display: inline;
+}
+
+.TopMenu h2 {
+  display: inline;
+  color: white;
+  font-size: 40px;
+  padding-top: 18px;
+  padding-left: 20px;
+}
+
+.Colored2 {
+  display: inline-block;
+  color: cornflowerblue;
+  padding-top: 5px;
 }
 /*semi-circular Nav bar*/
 .semicircle {
@@ -66,7 +97,7 @@ a{
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-li {
+.semicircle li {
   list-style: none;
 }
 
@@ -112,7 +143,7 @@ li {
   background-position-y: 50%;
   transform: scale(15);
   transition: transform 1s;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 7, 7, 0.6);
 }
 
 .semicircle .HomePage:hover {
@@ -195,9 +226,9 @@ li {
   transform: scale(17);
 }
 
-.gone{
-      display: none;
-    }
+.gone {
+  display: none;
+}
 /*End of semi-circular nav-bar*/
 
 /*Image slider*/
@@ -423,7 +454,7 @@ img {
 
 .cards {
   width: 100%;
-  height: 260px;
+  height: 350px;
   perspective: 600px;
 }
 
@@ -452,10 +483,11 @@ img {
 }
 
 .card-face.front h2 {
-  font-size: 20px;
-  color: cyan;
+  font-size: 30px;
+  color: black;
   text-align: center;
-  margin-top: 135px;
+  margin-top: 175px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .card-face.back {
@@ -476,17 +508,17 @@ img {
 }
 
 .card2 .card-face.front {
-  background-image: url("");
+  background-image: url("Intro\ images/workout.jpg");
   background-size: cover;
 }
 
 .card3 .card-face.front {
-  background-image: url("");
+  background-image: url("Intro\ images/crowd.jpg");
   background-size: cover;
 }
 
 .card4 .card-face.front {
-  background-image: url("");
+  background-image: url("Intro\ images/phone.jpg");
   background-size: cover;
 }
 
