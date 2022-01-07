@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.diaporama {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+}
+
+.diaporama .relax {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: animate 110s infinite;
+  opacity: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.diaporama .relax.one {
+  background-image: url("Relaxation images/Breathe-in.jpg");
+}
+.diaporama .relax.two {
+  background-image: url("Relaxation images/Doubt\ kills\ dreams.jpg");
+}
+.diaporama .relax.three {
+  background-image: url("Relaxation images/Heal\ depression.jpg");
+}
+.diaporama .relax.four {
+  background-image: url("Relaxation images/stronger\ than\ depression.jpg");
+}
+.diaporama .relax.five {
+  background-image: url("Relaxation images/Everything\ will\ be\ ok.jpg");
+}
+.diaporama .relax.six {
+  background-image: url("Relaxation images/All\ probelms\ can\ be\ solved.jpg");
+}
+.diaporama .relax.seven {
+  background-image: url("Relaxation images/Stronger\ than\ i\ think.jpg");
+}
+.diaporama .relax.eight {
+  background-image: url("Relaxation images/you\ wish\ to\ be.jpg");
+}
+.diaporama .relax.nine {
+  background-image: url("Relaxation images/float\ downstream\ .jpg");
+}
+.diaporama .relax.ten {
+  background-image: url("Relaxation images/Happiness.jpg");
+}
+
+.diaporama .relax.two {
+  animation-delay: 10s;
+}
+.diaporama .relax.three {
+  animation-delay: 20s;
+}
+.diaporama .relax.four {
+  animation-delay: 30s;
+}
+.diaporama .relax.five {
+  animation-delay: 40s;
+}
+.diaporama .relax.six {
+  animation-delay: 50s;
+}
+.diaporama .relax.seven {
+  animation-delay: 60s;
+}
+.diaporama .relax.eight {
+  animation-delay: 70s;
+}
+.diaporama .relax.nine {
+  animation-delay: 80s;
+}
+.diaporama .relax.ten {
+  animation-delay: 90s;
+}
+
+@keyframes animate {
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
