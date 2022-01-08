@@ -16,6 +16,7 @@ body {
   display: block;
   padding: 20px 18px;
   text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
 .TopMenu li {
@@ -42,7 +43,7 @@ body {
     background-color: black;
   }
   25% {
-    background-color: yellow;
+    background-color: royalblue;
   }
   50% {
     background-color: gray;
@@ -240,14 +241,24 @@ img {
   margin: auto;
 }
 
+.text h2 {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 25%;
+  color: white;
+  text-shadow: 4px 0px 0px #ce0000;
+  font-size: 40px;
+}
+
 .text h1 {
   position: absolute;
   text-align: center;
   top: 30%;
   left: 13%;
-  color: #fff;
-  text-shadow: 0 2px 3px #747474, 1px 3px 4px #222, 0 8px 3px #474747,
-    0 11px 4px #747474, 0 14px 4px cyan, 0 17px 4px #343434, 0 20px 4px white;
+  color: black;
+  text-decoration-style: bold;
+  text-shadow: 4px 6px 8px #9590ce;
   width: auto;
   font-size: 70px;
 }
