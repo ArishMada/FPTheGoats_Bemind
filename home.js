@@ -50,7 +50,7 @@ window.addEventListener("scroll",function(event){
   var scroll= this.scrollY;
   console.log(scroll);
   var SemiMenu= document.getElementById('NavScroll')
-  if (scroll>80){
+  if (scroll>200){
     SemiMenu.className='semicircle'
   } else{
     SemiMenu.className='gone'

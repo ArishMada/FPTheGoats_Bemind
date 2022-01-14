@@ -240,10 +240,10 @@ body {
   height: auto;
 }
 
-img {
+.slides img {
   vertical-align: middle;
   width: 100%;
-  height: 650px;
+  max-height: 650px;
 }
 
 .slideshow-container {
@@ -297,6 +297,10 @@ img {
   bottom: 50px;
   width: auto;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.text h1#meet {
+  bottom: 70px;
 }
 
 .text h1.title {
@@ -376,22 +380,40 @@ img {
     font-size: 11px;
   }
 }
-/*end of image slider*/
+/* End of Image slider*/
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1300px) {
+  .text p {
+    font-size: 15px;
+  }
+  .text h1 {
+    bottom: 60px;
+  }
+
+  .text h1#meet {
+    bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
   .text h1 {
     font-size: 30px;
+    bottom: 70px;
   }
+
+  .text h1#meet {
+    bottom: 80px;
+  }
+
   .text h1.title {
     font-size: 60px;
   }
   .text p {
     width: 100%;
-    font-size: 14px;
-    bottom: 10px;
+    font-size: 15px;
+    bottom: 40px;
   }
 }
-/* End of Image slider*/
 
 /* Description and Introduction */
 .About {
