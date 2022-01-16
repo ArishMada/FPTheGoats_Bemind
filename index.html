@@ -112,9 +112,9 @@
       <br /><br /><br />
       <ul class="gap">
         <li><a href="home.html">HOME</a></li>
-        <li><a href="">ESCAPISM</a></li>
-        <li><a href="">PHYSICAL WELL-BEING</a></li>
-        <li><a href="">MEET</a></li>
+        <li><a href="Escapism.html">ESCAPISM</a></li>
+        <li><a href="Physical wb.html">PHYSICAL WELL-BEING</a></li>
+        <li><a href="Meet.html">MEET</a></li>
       </ul>
     </nav>
 
@@ -124,7 +124,7 @@
     <!--Navigatio bar-->
 
     <!--Title-->
-    <div class="hero">
+    <div class="hero" onclick="play()">
       <h1>
         BEMIND <br />
         <span>A BETTER YOU</span>
@@ -138,7 +138,27 @@
 
     <canvas id="bubble"></canvas>
 
-    <audio src="Short Relaxing Soft Music.mp3" id="myaudio"></audio>
+    <!--Audios-->
+    <audio
+      src="Relaxing music/Short Relaxing Soft Music.mp3"
+      class="myaudio"
+    ></audio>
+    <audio
+      src="Relaxing music/[HQ] Naruto Shippuden OST 3 - Peaceful Theme.mp3"
+      class="myaudio"
+    ></audio>
+    <audio
+      src="Relaxing music/Acoustic Folk Instrumental – Hyde - Free Instrumentals (No Copyright Music).mp3"
+      class="myaudio"
+    ></audio>
+    <audio
+      src="Relaxing music/Relaxing Anti-Stress Music - slow and positive - rd N°026.mp3"
+      class="myaudio"
+    ></audio>
+    <audio
+      src="Relaxing music/Peder B. Helland - Calm Wind.mp3"
+      class="myaudio"
+    ></audio>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
@@ -254,17 +274,18 @@
           });
         });
       var status = false;
-      var audio = document.getElementById("myaudio");
+      var playlist = document.querySelectorAll(".myaudio");
+      var soundFile = playlist[Math.floor(Math.random() * playlist.length)];
 
-      document.onclick = function () {
-        if (status == false || audio.paused) {
-          audio.play();
+      function play() {
+        if (status == false || soundFile.paused) {
+          soundFile.play();
           status = true;
         } else {
-          audio.pause();
+          soundFile.pause();
           status = false;
         }
-      };
+      }
     </script>
   </body>
 </html>

@@ -65,6 +65,7 @@ body {
   font-size: 40px;
   padding-top: 18px;
   padding-left: 20px;
+  font-family: Verdana, sans-serif;
 }
 
 .Colored2 {
@@ -288,6 +289,10 @@ body {
 }
 
 /*Description*/
+.page {
+  margin-top: -35px;
+}
+
 .description .paragraphs {
   width: 100%;
 }
@@ -333,6 +338,7 @@ body {
 }
 
 .description .middle {
+  height: 200px;
   margin-top: 350px;
   margin-left: 450px;
   background-color: lightblue;
@@ -344,4 +350,102 @@ body {
 .description .middle p {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/*list of activities*/
+.schedule {
+  width: 50%;
+  background-image: url("pexels-photo.jpeg");
+  border-radius: 5px;
+  margin-left: 20px;
+  height: 100%;
+}
+
+.schedule h2 {
+  padding-top: 0px;
+  text-align: center;
+  color: white;
+}
+
+.collapsibles {
+  padding-bottom: 20px;
+}
+
+.collapsible {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 18px;
+  margin-left: 10%;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.schedule p {
+  color: white;
+  margin: 20px 30px 20px;
+}
+
+/*set a different color when hovered*/
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  width: 80%;
+  margin-left: 10%;
+  padding: 0 0px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 77, 121, 1) 75%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.collapsible:after {
+  content: "\02795"; /*plus" sign (+)*/
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible.active:after {
+  content: "\2796"; /*"minus" sign (-)*/
+}
+
+.schedule .underlined {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.collapsibles ul li {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.collapsibles iframe {
+  display: block;
+  align-content: center;
+  width: 320px;
+  height: 210px;
 }

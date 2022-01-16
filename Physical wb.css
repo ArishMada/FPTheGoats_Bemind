@@ -1,0 +1,318 @@
+/*top nav bar*/
+.TopMenu {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.TopMenu a {
+  text-decoration: none;
+  color: brown;
+  display: block;
+  padding: 20px 18px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+.TopMenu li {
+  list-style: none;
+  float: right;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.TopMenu a:hover {
+  background-color: white;
+}
+
+.TopMenu a.active {
+  background-color: white;
+}
+
+.TopMenu:hover {
+  animation: topMenuAnimation 7s infinite;
+}
+
+@keyframes topMenuAnimation {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: royalblue;
+  }
+  50% {
+    background-color: gray;
+  }
+  75% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+.TopMenu ul {
+  display: inline;
+}
+
+.TopMenu h2 {
+  display: inline;
+  color: white;
+  font-size: 40px;
+  padding-top: 18px;
+  padding-left: 20px;
+  font-family: Verdana, sans-serif;
+}
+
+.Colored2 {
+  display: inline-block;
+  color: cornflowerblue;
+  padding-top: 5px;
+}
+/*semi-circular Nav bar*/
+.semicircle {
+  width: 135px;
+  height: 135px;
+  margin-left: -90px;
+  background: url("icons/menu.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position-x: 93px;
+  background-position-y: 50%;
+  border-radius: 43%;
+  position: fixed;
+  top: 40%;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle li {
+  list-style: none;
+}
+
+.BackToTop {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: -31px;
+  margin-left: 75px;
+  position: absolute;
+}
+
+.semicircle:hover .BackToTop {
+  background-image: url("icons/arrow\ up\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transform: scale(15);
+  transition: transform 1s;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .BackToTop:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.HomePage {
+  width: 3.5px;
+  height: 3.5px;
+  border-radius: 43%;
+  margin-top: 6px;
+  margin-left: 111px;
+  position: absolute;
+}
+
+.semicircle:hover .HomePage {
+  background-image: url("icons/home\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transform: scale(15);
+  transition: transform 1s;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .HomePage:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.PhysicalWB {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: 54px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.semicircle:hover .PhysicalWB {
+  background-image: url("icons/running\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transition: transform 1s;
+  transform: scale(15);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .PhysicalWB:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.Escapism {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: 101px;
+  margin-left: 110px;
+  position: absolute;
+  transition: transform 1s;
+}
+.semicircle:hover .Escapism {
+  background-image: url("icons/meditation\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transition: transform 1s;
+  transform: scale(15);
+  background-color: rgba(255, 7, 7, 0.6);
+}
+
+.semicircle .Escapism:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.Meeting {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: 136px;
+  margin-left: 73px;
+  position: absolute;
+}
+
+.semicircle:hover .Meeting {
+  background-image: url("icons/phone\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transition: transform 1s;
+  transform: scale(15);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .Meeting:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.gone {
+  display: none;
+}
+/*End of semi-circular nav-bar*/
+
+/*Image diaporama*/
+.diaporama .images {
+  display: none;
+}
+
+.diaporama img {
+  vertical-align: middle;
+  width: 100%;
+  height: 650px;
+}
+
+.diaporama {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.text h2 {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 25%;
+  color: white;
+  text-shadow: 4px 0px 0px #ce0000;
+  font-size: 40px;
+}
+
+.text h1 {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 13%;
+  color: black;
+  text-decoration-style: bold;
+  text-shadow: 4px 6px 8px #9590ce;
+  width: auto;
+  font-size: 70px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.Title-section {
+  height: 600px;
+  background-image: url("pexels-kelly.jpg");
+  background-size: cover;
+}
+
+.Title-section .Titre {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  letter-spacing: 1px;
+}
+
+.Titre h1 {
+  background-image: url(https://media.giphy.com/media/KFWFHnsTsD24OZv0zC/giphy-downsized-large.gif);
+  background-size: cover;
+  color: transparent;
+  /*ignore the next error, it is normal, it is due to the fact that we are a gif which is not a video and not an image so we mix both*/
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 80px;
+  line-height: 0.75;
+  margin: 0 30px;
+}
