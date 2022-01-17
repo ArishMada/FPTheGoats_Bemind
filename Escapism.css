@@ -359,6 +359,7 @@ body {
   border-radius: 5px;
   margin-left: 20px;
   height: 100%;
+  float: left;
 }
 
 .schedule h2 {
@@ -450,4 +451,137 @@ body {
   align-content: center;
   width: 320px;
   height: 210px;
+}
+
+.meditation {
+  width: 95%;
+  padding-top: 20px;
+}
+/*music player*/
+.music-player {
+  float: right;
+  width: 40%;
+  margin-right: 30px;
+  background-image: url("pexels-photo.jpeg");
+}
+
+.music-player h2 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.audio-container {
+  background-color: #000;
+  box-shadow: 0 20px 20px 0 rgb(247, 148, 1);
+  border-radius: 15px;
+  display: flex;
+  padding: 20px 30px;
+  position: relative;
+  margin: 80px 110px;
+  z-index: 10;
+  width: 310px;
+}
+
+/*resize and style the image*/
+.image-container {
+  position: relative;
+  width: 90px;
+}
+
+.image-container img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 90px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: rotate 3s linear infinite;
+  animation-play-state: paused;
+}
+
+/*apply a rotating image animation when the music is playing*/
+.audio-container.play .image-container img {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/*styling the buttons*/
+.action-btn {
+  background-color: #000;
+  border: 0;
+  color: #f7be04;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.action-btn.action-btn-big {
+  color: #fcb51b;
+  font-size: 30px;
+}
+
+.action-btn:hover {
+  color: white;
+}
+
+/*styling the info section*/
+.audio-info {
+  background-color: rgb(255, 166, 0);
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(50%);
+  padding: 10px 10px 10px 150px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+
+/*different styling when playing*/
+.audio-container.play .audio-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.audio-info h4 {
+  margin: 0;
+}
+
+/*style the progress bar*/
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #000;
+  border-radius: 5px;
+  height: 100%;
+  width: 50%;
+  transition: width 0.1s linear;
 }
