@@ -296,7 +296,6 @@ body {
   padding-bottom: 50px;
   background-image: url("pexels-mohan-reddy.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   clear: both;
   display: table;
 }
@@ -346,7 +345,7 @@ body {
 .schedule {
   width: 50%;
   background-image: url("pexels-photo.jpeg");
-  background-size: cover;
+  background-size: contain;
   border-radius: 5px;
   margin-left: 20px;
   height: 100%;
@@ -579,12 +578,14 @@ body {
   transition: width 0.1s linear;
 }
 
-.Bottom-Page{
-  padding:1px;
-  width:100%;
+.Bottom-Page p {
+  width: 100%;
   background-color: rgb(18, 18, 24);
   font-weight: bold;
   color: white;
   text-shadow: white 0px 4px 3px;
   text-align: center;
+  padding: 10px 10px 0px 10px;
+  height: 40px;
+  margin: 0;
 }
