@@ -1,232 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home-Bemind</title>
-    <link rel="stylesheet" href="home.css" />
-  </head>
-  <header>
-    <!--top navigation bar-->
-    <div class="TopMenu">
-      <h2>
-        BE
-        <div class="Colored2">MIND</div>
-      </h2>
-      <ul>
-        <li><a href="Meet.html">Meet</a></li>
-        <li><a href="Escapism.html">Escapism</a></li>
-        <li><a href="Physical wb.html">Physical well being</a></li>
-        <li><a class="active" href="home.html">Home</a></li>
-      </ul>
-    </div>
-    <!--End of top navigation bar-->
 
-    <!--Permanent semi-circular nav bar-->
-    <div id="NavScroll" class="gone">
-      <ul>
-        <li><a href="#" class="BackToTop"></a></li>
-        <li>
-          <a href="home.html" class="HomePage"></a>
-        </li>
-        <li>
-          <a href="Physical wb.html" class="PhysicalWB"></a>
-        </li>
-        <li>
-          <a href="Escapism.html" class="Escapism"></a>
-        </li>
-        <li>
-          <a href="Meet.html" class="Meeting"></a>
-        </li>
-      </ul>
-    </div>
-    <!--End of permanent semi-circular nav bar-->
-  </header>
-  <body>
-    <!--Image slider-->
-    <div class="slideshow-container">
-      <div class="slides fade">
-        <img
-          src="slideshow images/home.jpg"
-          alt="A peaceful landscape with a beautiful ocean in the front and mountains in the background"
-        />
-        <div class="text">
-          <h1 class="title"><span>Be</span>mind</h1>
-          <h2>Everything you need to feel better</h2>
-        </div>
-      </div>
-      <div class="slides fade">
-        <img
-          src="slideshow images/escapism.jpg"
-          alt="A person meditating under a tree, putting her hands together and raising them up"
-        />
-        <div class="text">
-          <h1>Escapism</h1>
-          <p>
-            Are you stressed? Overwhelmed? Sad or just unhappy?<br />It's
-            totally normal, and most importantly, it's fixable. Let's take a
-            deep breath and forget this stressful world for a few minutes and
-            you will feel better. Bemind offers relaxation techniques that will
-            help you go through a stressful day/week/month and get you the calm
-            you need to live at a 100%. It will make you feel happier, and more
-            relaxed in order to make you enjoy life.
-          </p>
-        </div>
-      </div>
-      <div class="slides fade">
-        <img
-          src="slideshow images/exercise.jpg"
-          alt="A person's in squat position with hands preparing to lift a weight"
-        />
-        <div class="text">
-          <h1>Physical Well-being</h1>
-          <p>
-            You have always thought of getting in shape, always of starting to
-            do some exercise or you are already practicing regularly. In any
-            case, sport is said to be the best activity to improve your mood and
-            that is our goal too. We have a list of exercises, a schedule to
-            follow that will not make you too tired but will help you reconnect
-            with you body, we are here to help you get to your body goal.
-            Beginner or advanced level, all are available for you to go at your
-            own pace
-          </p>
-        </div>
-      </div>
-      <div class="slides fade">
-        <img
-          src="slideshow images/meet.jpg"
-          alt="A person's in squat position with hands preparing to lift a weight"
-        />
-        <div class="text">
-          <h1 id="meet">Meet</h1>
-          <p>
-            Meeting new ppeople can be good for your mental health, it can get
-            you out of that bubble of loneliness you create around yourself when
-            you start feeling down. Although, it's hard to get back into the
-            real world and start socializing again after cutting everyone out.
-            But don't worry, Bemind is here to help you meet new people that had
-            or are having the same experience as you, you could join a group to
-            talk about your problems. And that's not all of it; events will also
-            be organized to help the poor, better the environment or just have
-            fun. Hope you'll enjoy.
-          </p>
-        </div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <div class="dots" style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-    <!--End of Image slider-->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home-Bemind</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<header>
+  <!--top navigation bar-->
+  <div class="TopMenu">
+    <h2>
+      BE
+      <div class="Colored2">MIND</div>
+    </h2>
+    <ul>
+      <li><a href="Meet.html">Meet</a></li>
+      <li><a href="Escapism.html">Escapism</a></li>
+      <li><a href="Physical wb.html">Physical well being</a></li>
+      <li><a class="active" href="home.html">Home</a></li>
+    </ul>
+  </div>
+  <!--End of top navigation bar-->
 
-    <!--Description and Introduction-->
-    <div class="About">
-      <h1 class="heading">About Bemind</h1>
-      <div class="Intro">
-        <div class="images">
-          <div class="image-top">
-            <img
-              src="Intro images/Mental-health.jpg"
-              alt="A grown man's silhouette with his head breaking into pieces"
-            />
-          </div>
-          <div class="image-bottom">
-            <img
-              src="Intro images/worry-less.jpg"
-              alt="An image with worry less written in the middle"
-            />
-          </div>
+  <!--Permanent semi-circular nav bar-->
+  <div id="NavScroll" class="gone">
+    <ul>
+      <li><a href="#" class="BackToTop"></a></li>
+      <li>
+        <a href="home.html" class="HomePage"></a>
+      </li>
+      <li>
+        <a href="Physical wb.html" class="PhysicalWB"></a>
+      </li>
+      <li>
+        <a href="Escapism.html" class="Escapism"></a>
+      </li>
+      <li>
+        <a href="Meet.html" class="Meeting"></a>
+      </li>
+    </ul>
+  </div>
+  <!--End of permanent semi-circular nav bar-->
+</header>
+
+<body>
+  <!--Image slider-->
+  <div class="slideshow-container">
+    <div class="slides fade">
+      <img src="slideshow images/home.jpg"
+        alt="A peaceful landscape with a beautiful ocean in the front and mountains in the background" />
+      <div class="text">
+        <h1 class="title"><span>Be</span>mind</h1>
+        <h2>Everything you need to feel better</h2>
+      </div>
+    </div>
+    <div class="slides fade">
+      <img src="slideshow images/escapism.jpg"
+        alt="A person meditating under a tree, putting her hands together and raising them up" />
+      <div class="text">
+        <h1>Escapism</h1>
+        <p>
+          Are you stressed? Overwhelmed? Sad or just unhappy?<br />It's
+          totally normal, and most importantly, it's fixable. Let's take a
+          deep breath and forget this stressful world for a few minutes and
+          you will feel better. Bemind offers relaxation techniques that will
+          help you go through a stressful day/week/month and get you the calm
+          you need to live at a 100%. It will make you feel happier, and more
+          relaxed in order to make you enjoy life.
+        </p>
+      </div>
+    </div>
+    <div class="slides fade">
+      <img src="slideshow images/exercise.jpg"
+        alt="A person's in squat position with hands preparing to lift a weight" />
+      <div class="text">
+        <h1>Physical Well-being</h1>
+        <p>
+          You have always thought of getting in shape, always of starting to
+          do some exercise or you are already practicing regularly. In any
+          case, sport is said to be the best activity to improve your mood and
+          that is our goal too. We have a list of exercises, a schedule to
+          follow that will not make you too tired but will help you reconnect
+          with you body, we are here to help you get to your body goal.
+          Beginner or advanced level, all are available for you to go at your
+          own pace
+        </p>
+      </div>
+    </div>
+    <div class="slides fade">
+      <img src="slideshow images/meet.jpg" alt="A person's in squat position with hands preparing to lift a weight" />
+      <div class="text">
+        <h1 id="meet">Meet</h1>
+        <p>
+          Meeting new ppeople can be good for your mental health, it can get
+          you out of that bubble of loneliness you create around yourself when
+          you start feeling down. Although, it's hard to get back into the
+          real world and start socializing again after cutting everyone out.
+          But don't worry, Bemind is here to help you meet new people that had
+          or are having the same experience as you, you could join a group to
+          talk about your problems. And that's not all of it; events will also
+          be organized to help the poor, better the environment or just have
+          fun. Hope you'll enjoy.
+        </p>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div class="dots" style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <!--End of Image slider-->
+
+  <!--Description and Introduction-->
+  <div class="About">
+    <h1 class="heading">About Bemind</h1>
+    <div class="Intro">
+      <div class="images">
+        <div class="image-top">
+          <img src="Intro images/Mental-health.jpg" alt="A grown man's silhouette with his head breaking into pieces" />
         </div>
-        <div class="paragraph">
-          <h2 class="subtitle">Our goal</h2>
-          <p>
-            Bemind was made to help teenagers and young adults with stress and
-            other mental health problems. It is designed to make them exercise,
-            meditate and meet people, 3 activities that are said to be the most
-            effective to cure mental problems and get them back into social
-            life. Depression, anxiety and overwhelming stress has been a raising
-            problem among people from 14 to 25 years old, our team came up with
-            an easy yet effective solution to actually try ot help them in the
-            best way possible.
-          </p>
+        <div class="image-bottom">
+          <img src="Intro images/worry-less.jpg" alt="An image with worry less written in the middle" />
         </div>
       </div>
-      <div class="features">
-        <h2 class="subtitle">The features</h2>
-        <div class="cards">
-          <div class="card card1">
-            <div class="card-face front">
-              <h2>Escapism</h2>
-            </div>
-            <div class="card-face back">
-              <p>
-                In this section of our page, we will be trying to get you to
-                relax and take a step back from your problems by doing some
-                breathing exercises. Alongside those exercises, we aim to
-                improve the quality of your sleep by advising you on your sleep
-                schedule and hopefully get you to be more energetic.
-              </p>
-            </div>
+      <div class="paragraph">
+        <h1 class="subtitle">Our goal</h1>
+        <p>
+          Bemind was made to help teenagers and young adults with stress and
+          other mental health problems. It is designed to make them exercise,
+          meditate and meet people, 3 activities that are said to be the most
+          effective to cure mental problems and get them back into social
+          life. Depression, anxiety and overwhelming stress has been a raising
+          problem among people from 14 to 25 years old, our team came up with
+          an easy yet effective solution to actually try ot help them in the
+          best way possible.
+        </p>
+      </div>
+    </div>
+    <div class="features">
+      <h1 class="subtitle">The features</h1>
+      <div class="cards">
+        <div class="card card1">
+          <div class="card-face front">
+            <h2>Escapism</h2>
           </div>
-          <div class="card card2">
-            <div class="card-face front">
-              <h2>Physical Well-being</h2>
-            </div>
-            <div class="card-face back">
-              <p>
-                Exercizing is well known for its benefits for your physical
-                health, but it also has a lot of psychological benefits such as
-                imrpoving your mood, help fight depression and reduce stress up
-                to 70%. We will give a series fo exercise that are not hard to
-                perform and will be good for both your mental and physical
-                health in the long run. "A healthy body is a healthy mind"
-              </p>
-            </div>
+          <div class="card-face back">
+            <p>
+              In this section of our page, we will be trying to get you to
+              relax and take a step back from your problems by doing some
+              breathing exercises. Alongside those exercises, we aim to
+              improve the quality of your sleep by advising you on your sleep
+              schedule and hopefully get you to be more energetic.
+            </p>
           </div>
-          <div class="card card3">
-            <div class="card-face front">
-              <h2>Meet</h2>
-            </div>
-            <div class="card-face back">
-              <p>
-                This page will require you to login with your account because it
-                will match you with other people in the same situation to allow
-                you to interact and try to help each others get back on your
-                feet. socializing does not only staves off feelings of loliness,
-                it will reduce your stress to talk to someone about your
-                problems. We want to give the opportunity to use technology to
-                bring socialization to people not make them seek it themselves
-                by creating random groups
-              </p>
-            </div>
+        </div>
+        <div class="card card2">
+          <div class="card-face front">
+            <h2>Physical Well-being</h2>
           </div>
-          <div class="card card4">
-            <div class="card-face front">
-              <h2>Call Us</h2>
-            </div>
-            <div class="card-face back">
-              <p>
-                Sometimes you are about to give up because all you have tried
-                have failed and you don't know if you will ever feel better,
-                talking to a professional is still an option. In this section,
-                you have the numbers of our members that are ready to help and
-                we are providing proffesionals' number too. Don't give up, we
-                are here for you and opening up is already a positive step
-                toward improving your mental health, we are also here for any
-                suggestions or complaints.
-              </p>
-            </div>
+          <div class="card-face back">
+            <p>
+              Exercizing is well known for its benefits for your physical
+              health, but it also has a lot of psychological benefits such as
+              imrpoving your mood, help fight depression and reduce stress up
+              to 70%. We will give a series fo exercise that are not hard to
+              perform and will be good for both your mental and physical
+              health in the long run. "A healthy body is a healthy mind"
+            </p>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="card-face front">
+            <h2>Meet</h2>
+          </div>
+          <div class="card-face back">
+            <p>
+              This page will require you to login with your account because it
+              will match you with other people in the same situation to allow
+              you to interact and try to help each others get back on your
+              feet. socializing does not only staves off feelings of loliness,
+              it will reduce your stress to talk to someone about your
+              problems. We want to give the opportunity to use technology to
+              bring socialization to people not make them seek it themselves
+              by creating random groups
+            </p>
+          </div>
+        </div>
+        <div class="card card4">
+          <div class="card-face front">
+            <h2>Call Us</h2>
+          </div>
+          <div class="card-face back">
+            <p>
+              Sometimes you are about to give up because all you have tried
+              have failed and you don't know if you will ever feel better,
+              talking to a professional is still an option. In this section,
+              you have the numbers of our members that are ready to help and
+              we are providing proffesionals' number too. Don't give up, we
+              are here for you and opening up is already a positive step
+              toward improving your mental health, we are also here for any
+              suggestions or complaints.
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!--End of Description and Introduction-->
+  </div>
+  <!--End of Description and Introduction-->
 
-    <script type="text/javascript" src="home.js"></script>
-  </body>
+  <script type="text/javascript" src="home.js"></script>
+</body>
+
 </html>

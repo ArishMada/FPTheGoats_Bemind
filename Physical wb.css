@@ -276,7 +276,7 @@ body {
 .description .row .image-descri {
   flex: 1 1 40rem;
   padding: 0.5rem;
-  margin-left: 60px;
+  margin-left: 5rem;
 }
 
 .description .row .image-descri img {
@@ -323,8 +323,12 @@ body {
   margin-bottom: 1.8rem;
 }
 
+.container {
+  padding-bottom: 5rem;
+}
+
 .boxes {
-  margin: 40px 0;
+  margin: 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,7 +343,7 @@ body {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  margin: 0.5rem;
+  margin: 0.8rem;
 }
 
 .box.is-flipped {
@@ -397,9 +401,19 @@ body {
 .box-face.back p {
   line-height: 2;
   color: #fff;
-  font-size: 1.1rem;
-  padding: 2rem 1rem;
-  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+  padding: -0.1rem 1.1rem;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+.box-face.back .underlined {
+  line-height: 2;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: underline;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .back {
@@ -417,10 +431,17 @@ body {
   background-color: transparent;
   border: 0.3rem solid yellowgreen;
   color: yellowgreen;
-  margin-top: 1.8rem;
   cursor: pointer;
   border-radius: 0.5rem;
   font-size: 1.5rem;
+}
+
+.box .box-face.front button {
+  margin-top: 2.5rem;
+}
+
+.box .box-face.back button {
+  margin-top: 0.5rem;
 }
 
 .box .box-face button:hover {

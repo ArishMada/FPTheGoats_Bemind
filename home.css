@@ -422,10 +422,21 @@ body {
   margin-left: 5%;
 }
 
-.About .heading {
-  font-size: 20px;
-  text-align: center;
+.About h1.subtitle {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: yellowgreen;
+  border-bottom: 0.3rem solid yellowgreen;
 }
+
+.About h1.heading {
+  margin: 0 auto;
+  font-size: 2.5rem;
+  text-align: center;
+  color: yellowgreen;
+  border-bottom: 0.3rem solid yellowgreen;
+}
+
 .About .Intro {
   margin-top: 20px;
   display: flex;
