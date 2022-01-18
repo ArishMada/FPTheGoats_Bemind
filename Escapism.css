@@ -399,7 +399,7 @@ body {
 }
 
 /*set a different color when hovered*/
-.active,
+.collapsible.active,
 .collapsible:hover {
   width: 90%;
   margin-left: 5%;
