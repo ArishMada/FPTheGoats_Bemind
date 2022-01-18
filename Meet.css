@@ -166,7 +166,7 @@
   background-position-y: 50%;
   transition: transform 1s;
   transform: scale(15);
-  background-color: rgba(255, 7, 7, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .semicircle .PhysicalWB:hover {
@@ -216,7 +216,7 @@
   background-position-y: 50%;
   transition: transform 1s;
   transform: scale(15);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 7, 7, 0.6);
 }
 
 .semicircle .Meeting:hover {
