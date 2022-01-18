@@ -161,7 +161,7 @@ h2{
   font-size: 60px;
   margin-bottom: 5px;
   font-weight: bold;
-  margin-top: -10px;
+  margin-top: 30px;
   text-decoration: underline;
 }
 .SubHeadingMeet:hover {
@@ -194,9 +194,63 @@ hr{
 
 h3{
   font-size: 20px;
+  margin-top:10px;
 }
 /*content of the webpage design*/
 
+.Benefits{
+  width: 100%;
+  list-style: none;
+}
+
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: -0px;
+  position: relative
+}
+
+.Benefit1{
+  display: none;
+}
+
+.List-Benefit1{
+  display: inline-block;
+  background-color: rgb(132, 150, 168);
+  width: 30%;
+  text-align: center;
+}
+.List-Benefit2{
+  display: inline-block;
+  background-color: rgb(132, 150, 168);
+  width: 30%;
+  text-align: center;
+}
+.List-Benefit3{
+  display: inline-block;
+  background-color: rgb(132, 150, 168);
+  width: 30%;
+  text-align: center;
+}
+.List-Benefit1:hover .Benefit1{
+  display: inline-block;
+}
+
+.Benefit2{
+  display: none;
+}
+
+.List-Benefit2:hover .Benefit2{
+  display: inline-block;
+}
+
+.Benefit3{
+  display: none;
+}
+
+.List-Benefit3:hover .Benefit3{
+  display: inline-block;
+}
 /* images*/
 .MeetingPeopleImage{
   margin-left: 70%;
@@ -210,12 +264,45 @@ h3{
   height: 250px;
 }
 
+.meeting-someone{
+  background-image: url("https://images.pexels.com/photos/9849936/pexels-photo-9849936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
+  margin-left: 60%;
+  position: absolute;
+}
+
+.PlayingJenga{
+  background-image: url("https://images.pexels.com/photos/5692659/pexels-photo-5692659.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: 400px 300px;
+  height: 300px;
+  width:400px;
+  display: absolute;
+  margin-left: 8%;
+}
+
 /*end images*/
 .content{
-  height:200px;
+  height:180px;
   width:700px;
   position: absolute;
   background-color: rgb(132, 150, 168);
   padding:0px 20px;
 }
 
+.Cafe-Picture{
+  background-image: url("https://images.pexels.com/photos/3205736/pexels-photo-3205736.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: 150px 270px;
+  height: 270px;
+  width:150px;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+.Activity-Info{
+  width: 60%;
+  display:inline-block;
+  font-size: 25px;
+  margin-left: 30px;
+}
