@@ -75,6 +75,12 @@ body {
   padding-left: 20px;
 }
 
+@media (max-width: 850px) {
+  .TopMenu ul {
+    display: none;
+  }
+}
+
 .Colored2 {
   display: inline-block;
   color: cornflowerblue;

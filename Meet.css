@@ -50,6 +50,15 @@
   }
 }
 
+@media (max-width: 850px) {
+  .TopMenu ul {
+    display: none;
+  }
+  .TopMenu a {
+    display: none;
+  }
+}
+
 .TopMenu ul {
   display: inline;
 }
