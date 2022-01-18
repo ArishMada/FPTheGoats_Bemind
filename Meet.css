@@ -68,6 +68,157 @@
   color: cornflowerblue;
   padding-top: 5px;
 }
+
+/*semi-circular Nav bar*/
+.semicircle {
+  width: 135px;
+  height: 135px;
+  margin-left: -90px;
+  background: url("icons/menu.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position-x: 93px;
+  background-position-y: 50%;
+  border-radius: 43%;
+  position: fixed;
+  top: 40%;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle li {
+  list-style: none;
+}
+
+.BackToTop {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: -31px;
+  margin-left: 75px;
+  position: absolute;
+}
+
+.semicircle:hover .BackToTop {
+  background-image: url("icons/arrow\ up\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transform: scale(15);
+  transition: transform 1s;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .BackToTop:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.HomePage {
+  width: 3.5px;
+  height: 3.5px;
+  border-radius: 43%;
+  margin-top: 6px;
+  margin-left: 111px;
+  position: absolute;
+}
+
+.semicircle:hover .HomePage {
+  background-image: url("icons/home\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transform: scale(15);
+  transition: transform 1s;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .HomePage:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.PhysicalWB {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: 54px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.semicircle:hover .PhysicalWB {
+  background-image: url("icons/running\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transition: transform 1s;
+  transform: scale(15);
+  background-color: rgba(255, 7, 7, 0.6);
+}
+
+.semicircle .PhysicalWB:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.Escapism {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: 101px;
+  margin-left: 110px;
+  position: absolute;
+  transition: transform 1s;
+}
+.semicircle:hover .Escapism {
+  background-image: url("icons/meditation\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transition: transform 1s;
+  transform: scale(15);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .Escapism:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.Meeting {
+  width: 3.4px;
+  height: 3.4px;
+  border-radius: 43%;
+  margin-top: 136px;
+  margin-left: 73px;
+  position: absolute;
+}
+
+.semicircle:hover .Meeting {
+  background-image: url("icons/phone\ icon.png");
+  background-size: 1.9px;
+  background-repeat: no-repeat;
+  background-position-x: 33.5%;
+  background-position-y: 50%;
+  transition: transform 1s;
+  transform: scale(15);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.semicircle .Meeting:hover {
+  transition: transform 1s;
+  transform: scale(17);
+}
+
+.gone {
+  display: none;
+}
+/*End of semi-circular nav-bar*/
 /*body*/
 .Meeting-Head{
   height:75%;
